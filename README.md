@@ -11,10 +11,10 @@
 - [Questions](#questions)
 
 ## Description
-This is my rendition of THE 1 And Only Tech Blog!!
+This is my rendition of THE 1 And Only Tech Blog!! Where tech lovers can browse, post, and comment on other users' post's.
 
 ## Installation
-To install, travel to my github, and use my code! 
+To install, travel to my [GitHub](https://github.com/mgsteinmetz) , and use my code! 
 
 ## Usage 
 To USE my code, all you have to do is type 'npm run seeds' into the integrated terminal to seed your database with the table data!!
