@@ -1,12 +1,21 @@
 <div class="card">
-    <h5 class="card-header">Post title</h5>
+    <h5 class="card-header"> {{ username }}</h5>
     <div class="card-body">
-        <h5 class="card-title">topic</h5>
-        <p class="card-text">text</p>
-        <a href="#" class="btn btn-secondary">Add Comment</a>
+        <p class="card-text">{{ description }}</p>
+        <p>
+            {{#each comments as |comment| }}
+            <div class="row mb-4 post">
+                <div class="col-md-7">
+                    <p>
+                        {{ comment.description }}
+                    </p>
+                </div>
+            </div>
+            <br>
+            <blockquote class="blockquote mb-0">
+                <footer class="blockquote-footer"> {{ comment.user.username }} posted at {{ format_date comment.date_created }}</footer>
+            </blockquote>
+            {{/each}}
+        </p>
     </div>
-    <br>
-    <blockquote class="blockquote mb-0">
-        <footer class="blockquote-footer">User posted in<cite title="Source Title"> The 1 And Only, Tech Blog</cite></footer>
-    </blockquote>
 </div>
