@@ -13,6 +13,8 @@
 ## Description
 This is my rendition of THE 1 And Only Tech Blog!! Where tech lovers can browse, post, and comment on other users' post's.
 
+Click [HERE](https://steinmetz-tech-blog.herokuapp.com/) to VIEW my deployed application!!
+
 ## Installation
 To install, travel to my [GitHub](https://github.com/mgsteinmetz) , and use my code! 
 
